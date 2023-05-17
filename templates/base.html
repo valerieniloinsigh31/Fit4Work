@@ -37,5 +37,13 @@
         <div class="message-container"></div>
     {% endif %}
    
+    {% if block_pageheader %}
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+    {% block postloadjs %}
+    {% endblock %}
   </body>
 </html>
